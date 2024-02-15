@@ -201,15 +201,18 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 10%;
+  top: 26%;
 }
 .right5 {
-  display: flex;
+    display: flex;
+    position: absolute;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   height: 100%;
   width: 50%;
+  top: 0;
+  right: 0%;
   padding-left: 5vw;
 }
 .right5 > h3 {
@@ -550,7 +553,7 @@ body {
   position: absolute;
   width: 20%;
   height: 20%;
-  bottom: 20%;
+  bottom: 30%;
   right: 5%;
   color: #fff;
 }
